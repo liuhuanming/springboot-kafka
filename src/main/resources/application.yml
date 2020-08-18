@@ -39,16 +39,16 @@ spring:
       stat-view-servlet:
         login-username: admin
         login-password: 888888
-  kafka:
-    bootstrap-servers: 192.168.234.132:9092,192.168.234.132:9093
-    consumer:
-      group-id: test
-      auto-offset-reset: earliest
-      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
-      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
-    producer:
-      key-serializer: org.apache.kafka.common.serialization.StringSerializer
-      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+#  kafka:
+#    bootstrap-servers: 192.168.234.132:9092,192.168.234.132:9093
+#    consumer:
+#      group-id: test
+#      auto-offset-reset: earliest
+#      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+#      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+#    producer:
+#      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+#      value-serializer: org.apache.kafka.common.serialization.StringSerializer
 mybatis:
   type-aliases-package: com.lmn.user.domain
   mapper-locations: classpath*:mapper/*.xml

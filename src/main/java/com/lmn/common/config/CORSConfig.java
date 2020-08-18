@@ -9,8 +9,8 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupp
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @Configuration
-public class CORSConfig{
-	private static final Logger LOG = LoggerFactory.getLogger(CORSConfig.class);
+public class CORSConfig {
+    private static final Logger LOG = LoggerFactory.getLogger(CORSConfig.class);
 
     @Bean
     public WebMvcConfigurer corsConfigurer() {

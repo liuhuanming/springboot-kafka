@@ -1,10 +1,12 @@
 package com.lmn.user.service;
 
-import java.util.List;
-
 import com.lmn.user.domain.User;
 
+import java.util.List;
+
 public interface UserService {
-	int insertUser(User user);
-	List<User> listAll();
+
+    int insertUser(User user);
+
+    List<User> listAll();
 }
